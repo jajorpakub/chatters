@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next build",
-    "build": "export NODE_OPTIONS=--openssl-legacy-provider; gatsby build",
+    "build": "export NODE_OPTIONS=--openssl-legacy-provider",
     "start": "next start"
   },
   "dependencies": {
