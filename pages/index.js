@@ -28,10 +28,11 @@ export default function Auth() {
     <div className='auth-container'>
       <form className='auth-form' onSubmit={e => onSubmit(e)}>
         <div className='auth-title'>Chatters</div>
+        <div className='auth-title'>Wpisz nick i hasło, tyle wystarczy!</div>
 
         <div className='input-container'>
           <input
-          placeholder='Podaj majla'
+          placeholder='nickname'
           className='text-input'
           onChange={(e) => setUsername(e.target.value)}
           />
