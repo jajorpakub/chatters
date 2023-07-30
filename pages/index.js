@@ -28,7 +28,7 @@ export default function Auth() {
     <div className='auth-container'>
       <form className='auth-form' onSubmit={e => onSubmit(e)}>
         <div className='auth-title'>Chatters</div>
-        <div className='auth-title'>Wpisz nick i hasło, tyle wystarczy!</div>
+        <div className='auth-titl'>Wpisz nick i hasło, tyle wystarczy!</div>
 
         <div className='input-container'>
           <input
