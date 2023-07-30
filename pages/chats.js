@@ -32,7 +32,7 @@ export default function Chats() {
   <div className="background">
     <div className='engine'>
       <ChatEngine
-      height="calc(100vh - 200px)"
+      height="calc(100vh - 100px)"
       projectID="3bcf2221-a3b7-4338-a4ec-0bcad6cf8c9e"
       userName={username}
       userSecret={secret}
