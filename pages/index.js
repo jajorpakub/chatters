@@ -25,35 +25,59 @@ export default function Auth() {
   }
   return (
   <div className="background">
-    <div className='auth-title'>Chatters</div>
-    <div className='auth-container'>
-      <form className='auth-form' onSubmit={e => onSubmit(e)}>
-        <div className='auth-title'>Chatters</div>
-        <div className='auth-titl'>Wpisz nick i hasło, tyle wystarczy!</div>
+    <div className='auth-title'><center>Chatters</center></div>
+    <center>   
 
-        <div className='input-container'>
-          <input
-          placeholder='nickname'
-          className='text-input'
-          onChange={(e) => setUsername(e.target.value)}
-          />
+    <div class="main">
+        <div class="Geeks1 GFG">
+          <div class="online-indicator2">
+          <span class="blink2"></span>
+          </div>
+          <h2 class="online-text"> OFFLINE</h2></div>
+        <div class="Geeks2 GFG">
+          <div class="online-indicator">
+          <span class="blink"></span>
+          </div>
+          <h2 class="online-text"> ONLINE</h2>
+          </div>
+        <div class="Geeks3 GFG">
+        <div class="online-indicator2">
+          <span class="blink2"></span>
+          </div>
+          <h2 class="online-text"> OFFLINE</h2>
         </div>
-        <div className='input-container'>
-          <input
-          type='password'
-          placeholder='hasło skurwysynu'
-          className='text-input'
-          onChange={(e) => setSecret(e.target.value)}
-          />
-        </div>
-
-        <button
-          type='submit'
-          className='submit-button'>
-          Zaloguj się
-        </button>
-      </form>
     </div>
+
+      <div className='auth-container'>
+          <form className='auth-form' onSubmit={e => onSubmit(e)}>
+            <div className='auth-titl'>Wpisz swój nickname oraz hasło, następnie kliknij "Wejdź"</div>
+          <div className='input-container'>
+            <input
+            placeholder='nickname'
+            className='text-input'
+            onChange={(e) => setUsername(e.target.value)}
+            />
+          </div>
+          <div className='input-container'>
+            <input
+              type='password'
+              placeholder='hasło skurwysynu'
+              className='text-input'
+              onChange={(e) => setSecret(e.target.value)}
+            />
+            </div>
+                <center>
+                <button
+                type='submit'
+                className='submit-button'>
+                Wejdź
+                </button>
+              </center>
+          </form> 
+      </div>
+    </center>
+
+    
   </div>
   )
 }
