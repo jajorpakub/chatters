@@ -25,6 +25,7 @@ export default function Auth() {
   }
   return (
   <div className="background">
+    <div className='auth-title'>Chatters</div>
     <div className='auth-container'>
       <form className='auth-form' onSubmit={e => onSubmit(e)}>
         <div className='auth-title'>Chatters</div>
