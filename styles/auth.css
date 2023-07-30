@@ -9,8 +9,8 @@
 }
 
 .auth-container {
-  width: 460px;
-  height: 292px;
+  width: 420px;
+  height: 312px;
   position: relative;
   top: calc(50vh - 144px - 100px);
   left: calc(50vw - 240px - 100px);
