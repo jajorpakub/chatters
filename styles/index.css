@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@600;700&display=swap");
 
+::-webkit-scrollbar {
+    width: 0; /* Remove scrollbar space */
+    background: transparent; /* Optional: just make scrollbar invisible */
+}
+
 * {
   font-family: Quicksand !important;
 }
