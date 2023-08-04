@@ -1,3 +1,4 @@
+
 import React, { useContext } from "react";
 
 import { Context } from '../context'
@@ -25,22 +26,26 @@ export default function Auth() {
   }
   return (
   <div className="background">
+  <center>
     <div className='auth-title'><center>Chatters</center></div>
     <center>   
 
     <div class="main">
         <div class="Geeks1 GFG">
-          <div class="online-indicator2">
-          <span class="blink2"></span>
+          <div class="online-text1">Mefedron</div>
+          <div class="online-indicator3">
+          <span class="blink3"></span>
           </div>
-          <h2 class="online-text"> OFFLINE</h2></div>
+          <h2 class="online-text"> IN-PROGRESS</h2></div>
         <div class="Geeks2 GFG">
+        <div class="online-text1">Skun</div>
           <div class="online-indicator">
           <span class="blink"></span>
           </div>
           <h2 class="online-text"> ONLINE</h2>
           </div>
         <div class="Geeks3 GFG">
+        <div class="online-text1">Reszta</div>
         <div class="online-indicator2">
           <span class="blink2"></span>
           </div>
@@ -74,10 +79,11 @@ export default function Auth() {
                 </button>
               </center>
           </form> 
+          
       </div>
     </center>
 
-    
+    </center>  
   </div>
   )
 }
